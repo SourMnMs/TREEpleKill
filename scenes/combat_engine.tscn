@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://b7djoogg7asow"]
+
+[ext_resource type="Script" uid="uid://86snsh6pqo40" path="res://src/Entity.gd" id="1_ydbbf"]
+
+[node name="CombatEngine" type="Node2D" unique_id=1714415786]
+
+[node name="Entity" type="Node" parent="." unique_id=654026639]
+script = ExtResource("1_ydbbf")
+metadata/_custom_type_script = "uid://86snsh6pqo40"
+
+[node name="Entity2" type="Node" parent="." unique_id=1502903986]
+script = ExtResource("1_ydbbf")
+metadata/_custom_type_script = "uid://86snsh6pqo40"
+
+[node name="Node" type="Node" parent="." unique_id=1424985040]
